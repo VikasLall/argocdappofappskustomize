@@ -7,10 +7,10 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: helm-app1
+    namespace: helm-kustomization-app1
     server: https://kubernetes.default.svc
   project: default
-  source:
+  sources:
     - repoURL: 'git@github.com:VikasLall/argocdappofappskustomize.git'
       targetRevision: main
       path: apps-kustomization/app1
