@@ -5,8 +5,8 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   labels:
-    app.kubernetes.io/name: root-app-helm-approach
-  name: root-app-helm-approach
+    app.kubernetes.io/name: root-app-helm-kustomization-approach
+  name: root-app-helm-kustomization-approach
   namespace: argocd
 spec:
   destination:
@@ -19,7 +19,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: apps-helm-chart/dev
+    path: apps-helm-chart
     repoURL: git@github.com:VikasLall/argocdappofapps.git
     targetRevision: main
     directory:
