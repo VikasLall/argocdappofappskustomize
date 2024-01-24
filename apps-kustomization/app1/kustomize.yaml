@@ -1,0 +1,14 @@
+helmCharts:
+  - name: helm-chart-test
+    repo: https://vikaslall.github.io/helm-chart/
+    version: 0.1.1
+    valuesFile: values.yaml
+    includeCRDs: true
+    wait: true
+    timeout: 300
+    atomic: true
+    cleanupOnFail: true
+    createNamespace: true
+
+
+
