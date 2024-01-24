@@ -1,0 +1,6 @@
+# ./base/kustomization.yaml
+resources:
+- app1.yaml
+# - rolebinding.yaml
+# - role.yaml
+# - networkpolicy.yaml

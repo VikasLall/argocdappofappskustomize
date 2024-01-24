@@ -1,0 +1,3 @@
+# ./kustomization.yaml
+resources:
+- apps-kustomization/app1
