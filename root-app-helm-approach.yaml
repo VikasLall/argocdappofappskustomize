@@ -20,7 +20,7 @@ spec:
   project: default
   source:
     path: apps-helm-chart
-    repoURL: git@github.com:VikasLall/argocdappofappskustomize.git.git
+    repoURL: git@github.com:VikasLall/argocdappofappskustomize.git
     targetRevision: main
     directory:
       recurse: true
